@@ -1064,7 +1064,7 @@ function! <SID>ToggleWindowsManager()
 		call s:StartWindowsManager()
 		" NERDTree need this .打开时候会有一个空白窗口,要把它关闭
 		" 关闭第三个窗口
-		exe '3wincmd w'
+		"exe '3wincmd w'
 		exe 'q'
 	end
 endfunction
